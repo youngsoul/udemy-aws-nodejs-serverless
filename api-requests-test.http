@@ -1,0 +1,8 @@
+POST {{auction_host}}/auction
+Content-Type: application/json
+
+{
+  "title": "Super nice car"
+}
+
+###
