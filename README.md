@@ -30,11 +30,19 @@ sls deploy -v --aws-profile <profile_name>
 Deploy Only Function
 
 ```shell
-sls deploy -f createAction -v --aws-profile spr
+sls deploy -f createAuction -v --aws-profile spr
 ```
 
 UnDeploy
 
 ```shell
 sls remove -v --aws-profile <profile name>
+```
+
+Install Node Packages
+
+```shell
+npm install uuid
+npm install @middy/core @middy/http-event-normalizer @middy/http-error-handler @middy/http-json-body-parser
+npm install http-errors
 ```
