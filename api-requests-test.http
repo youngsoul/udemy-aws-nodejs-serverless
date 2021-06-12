@@ -11,15 +11,15 @@ GET {{auction_host}}/auctions
 
 ###
 
-GET {{auction_host}}/auction/744f64c9-a9ec-4b4f-a74e-5cf5196cc783
+GET {{auction_host}}/auction/920e88c8-41fd-4c0c-82a5-2ac0da3a3d58
 
 ###
 
-PATCH {{auction_host}}/auction/e46f2f78-cd9e-4d57-9506-746164d8c25c/bid
+PATCH {{auction_host}}/auction/920e88c8-41fd-4c0c-82a5-2ac0da3a3d58/bid
 Content-Type: application/json
 
 {
-  "amount": "170.50"
+  "amount": "1.40"
 }
 
 ###
