@@ -2,7 +2,7 @@ POST {{auction_host}}/auction
 Content-Type: application/json
 
 {
-  "title": "TimmyGeekMonkey"
+  "title": "Drum Set"
 }
 
 ###
@@ -11,8 +11,18 @@ GET {{auction_host}}/auctions
 
 ###
 
-GET {{auction_host}}/auction/6a414d05-7d04-4047-aa19-639d7d9672d9
+GET {{auction_host}}/auction/744f64c9-a9ec-4b4f-a74e-5cf5196cc783
+
+###
+
+PATCH {{auction_host}}/auction/e46f2f78-cd9e-4d57-9506-746164d8c25c/bid
+Content-Type: application/json
+
+{
+  "amount": "170.50"
+}
 
 ###
 
 GET {{hello_host}}/hello
+
